@@ -1,0 +1,85 @@
+.container {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('https://images.unsplash.com/photo-1595520174331-fa95741b7365?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0dWRlbnRzJTIwaW5jbGFzfGVufDB8fDB8fHww');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-size: 1.3em;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+    margin: 0 auto;
+    /* padding: 0.1% 0; */
+    border: 2px solid white;
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: right;
+}
+
+nav > ul {
+    text-align: right;
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; or any other appropriate value based on your design */
+    align-items: right; 
+    padding: 0%;
+}
+
+ul > li > a {
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+ul {
+    list-style: none;
+    padding-left: 0; /* Optional: This removes default padding */
+}
+
+
+ul > li > a:hover {
+    box-shadow: 0 0 0 0.625em rgba(0, 0, 0, 0.1), inset 0 0 0.625em rgba(255, 255, 255, 0.6);
+    background-color: rgba(107, 93, 84, 0.678);
+    color: rgba(0, 35, 122, 0.7);
+}
+
+header#overlay section#scholar img {
+    width: 700px;
+    height: 500px;
+    float: right;
+    margin: 10px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 80px;
+    top: -50;
+    text-align: left;
+
+}
+
+.footer-content{
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+.footer-content h3{
+    font-size: 1.2em;
+}
+
+.footer-content p{
+    margin-bottom: 10px;
+}
